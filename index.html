@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WTD! – What The Data!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Tailwind CSS (via CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- AOS Library for scroll animations -->
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  <!-- Your custom styles -->
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body class="antialiased text-gray-900 bg-white">
+
+  <!-- Hero Section -->
+  <header id="hero" class="py-20">
+    <div class="container mx-auto text-center">
+      <img src="WTD_Logo.png" alt="WTD! Logo" class="mx-auto mb-8 w-40">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4" data-aos="fade-down">
+        Master Data Analytics & Machine Learning
+      </h1>
+      <p class="text-lg mb-6" data-aos="fade-up">
+        Accelerate your career with expert-led masterclasses and bootcamps in Data Science.
+        Interactive projects and real-life case studies.
+      </p>
+      <a href="#courses"
+         class="bg-black text-white py-3 px-8 rounded-full text-lg hover:bg-gray-800 transition-colors"
+         data-aos="zoom-in">
+        Get Started
+      </a>
+    </div>
+  </header>
+
+  <!-- Our Mission -->
+  <section id="about" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-6" data-aos="fade-up">
+        Our Mission
+      </h2>
+      <p class="max-w-2xl mx-auto text-center" data-aos="fade-up" data-aos-delay="100">
+        At WTD! (“What The Data!”) we believe data literacy is the key to tomorrow’s opportunities.
+        Through hands-on classes, real projects and ongoing support, we empower you to master analytics & ML.
+      </p>
+    </div>
+  </section>
+
+  <!-- Student Reviews -->
+  <section id="reviews" class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-8" data-aos="fade-up">
+        Student Reviews
+      </h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right">
+          <p>"Had a great learning experience, bhaiya is very supportive and teaches well. He is also very considerate of the timings of the students and will help you in every way possible."</p>
+          <p class="mt-4 font-medium">— DebiPrasad Mishra</p>
+          <p class="text-sm text-gray-600">Rating: ★★★★☆ (4/5)</p>
+        </div>
+        <!-- 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-left">
+          <img src="tanisha.jpg"
+               alt="Tanisha Mohanty"
+               class="w-20 h-20 object-cover rounded-full mx-auto mb-4">
+          <p>"The session was a wonderful learning experience, thanks to Bhaiya and my fellow mates. I gained a strong grasp of the fundamentals, and the consistent hands-on coding practice greatly enhanced my skills."</p>
+          <p class="mt-4 font-medium">— Tanisha Mohanty</p>
+          <p class="text-sm text-gray-600">Rating: ★★★★★ (5/5)</p>
+          <p class="text-xs text-gray-500">22053650@kiit.ac.in</p>
+        </div>
+        <!-- 3 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right">
+          <img src="ujjawal.jpg"
+               alt="Ujjawal Anand"
+               class="w-20 h-20 object-cover rounded-full mx-auto mb-4">
+          <p>"Great Session with Bhaiya! I now know Python and ML thanks to the session Vhaiya put the effort into."</p>
+          <p class="mt-4 font-medium">— Ujjawal Anand</p>
+          <p class="text-sm text-gray-600">Rating: ★★★★★ (5/5)</p>
+        </div>
+        <!-- 4 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-left">
+          <p>"Very interactive sessions and his guidance is just like a big brother."</p>
+          <p class="mt-4 font-medium">— Anshika Kumari</p>
+          <p class="text-sm text-gray-600">Rating: ★★★★★ (5/5)</p>
+        </div>
+        <!-- 5 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right">
+          <p>"Much appreciated. I learned a lot. If you have any doubts, they will be clarified through extra lectures. Also, each topic is taught multiple times to ensure understanding. The topics covered are relevant to the current market scenario and help make us job-ready."</p>
+          <p class="mt-4 font-medium">— Priyanshu</p>
+          <p class="text-sm text-gray-600">Rating: ★★★★★ (5/5)</p>
+          <p class="text-xs text-gray-500">2330179@kiit.ac.in</p>
+        </div>
+        <!-- 6 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-left">
+          <img src="ishani.jpg"
+               alt="Ishani Mishra"
+               class="w-20 h-20 object-cover rounded-full mx-auto mb-4">
+          <p>"Big thanks to bhaiya for teaching me Python and ML so well. He explains clearly and listens patiently and calmly. Really grateful for his guidance!"</p>
+          <p class="mt-4 font-medium">— ISHANI MISHRA</p>
+          <p class="text-sm text-gray-600">Rating: ★★★★★ (5/5)</p>
+        </div>
+        <!-- 7 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-right">
+          <p>"It was very good, helpful and interactive."</p>
+          <p class="mt-4 font-medium">— Adrija Das</p>
+          <p class="text-sm text-gray-600">Rating: ★★★★★ (5/5)</p>
+        </div>
+        <!-- 8 -->
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-left">
+          <p>"All types of concepts were covered and every time bhaiya was there when we had doubt about anything whether related to the specific course or anything related to college. Thank You Bhaiya."</p>
+          <p class="mt-4 font-medium">— Ankit Singh</p>
+          <p class="text-sm text-gray-600">Rating: ★★★★★ (5/5)</p>
+          <p class="text-xs text-gray-500">singhankit12121212@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Offer -->
+  <section id="offer" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-8" data-aos="fade-up">What We Offer</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow" data-aos="zoom-in-up">
+          <h3 class="text-xl font-medium mb-2">Masterclasses</h3>
+          <p>Deep dive courses on cutting-edge analytics and ML topics with expert instructors.</p>
+        </div>
+        <div class="text-center p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow" data-aos="zoom-in-up" data-aos-delay="100">
+          <h3 class="text-xl font-medium mb-2">Bootcamps</h3>
+          <p>Intensive hands-on training programs to build industry-ready skills and projects.</p>
+        </div>
+        <div class="text-center p-6 border border-gray-200 rounded-lg hover:shadow-lg transition-shadow" data-aos="zoom-in-up" data-aos-delay="200">
+          <h3 class="text-xl font-medium mb-2">Free Notes</h3>
+          <p>Comprehensive study materials and cheat sheets available to support your learning journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Teaching Format -->
+  <section id="teaching" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-8" data-aos="fade-up">Teaching Format</h2>
+      <div class="flex flex-col md:flex-row md:justify-around gap-6">
+        <div class="text-center p-4" data-aos="flip-down">
+          <h3 class="text-2xl font-medium mb-2">Live Classes</h3>
+          <p>Real-time interactive sessions with our expert instructors.</p>
+        </div>
+        <div class="text-center p-4" data-aos="flip-down" data-aos-delay="100">
+          <h3 class="text-2xl font-medium mb-2">Recordings</h3>
+          <p>All sessions are recorded and provided for on-demand review anytime.</p>
+        </div>
+        <div class="text-center p-4" data-aos="flip-down" data-aos-delay="200">
+          <h3 class="text-2xl font-medium mb-2">Doubt Sessions</h3>
+          <p>Regular Q&A sessions to ensure you never get stuck.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Upcoming Batches -->
+  <section id="batches" class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-semibold text-center mb-8" data-aos="fade-up">Upcoming Batches</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="zoom-in">
+          <h3 class="text-xl font-medium">Data Analytics Course</h3>
+          <p class="mt-2">Starting May 21st</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="zoom-in" data-aos-delay="100">
+          <h3 class="text-xl font-medium">Machine Learning Project Bootcamp</h3>
+          <p class="mt-2">Coming Soon</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow" data-aos="zoom-in" data-aos-delay="200">
+          <h3 class="text-xl font-medium">Neural Networks and GenAI Course</h3>
+          <p class="mt-2">Coming Soon</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connect With Us -->
+<!-- Connect With Us -->
+<footer class="bg-gray-100 py-12">
+  <div class="container mx-auto text-center px-4">
+    <h2 class="text-3xl font-semibold mb-6">Connect With Us</h2>
+    <div class="flex flex-col sm:flex-row justify-center gap-6">
+      <a href="https://forms.gle/yourActualFormID"
+         target="_blank" rel="noopener"
+         class="text-lg font-medium text-gray-900 hover:underline flex items-center">
+        <span class="text-2xl mr-2">📄</span>
+        Join via Google Form
+      </a>
+      <a href="https://www.linkedin.com/in/aditya-srivastava-2743161a5/"
+         target="_blank" rel="noopener"
+         class="text-lg font-medium text-gray-900 hover:underline flex items-center">
+        <span class="text-2xl mr-2">🔗</span>
+        LinkedIn
+      </a>
+      <a href="tel:+918126937973"
+         class="text-lg font-medium text-gray-900 hover:underline flex items-center">
+        <span class="text-2xl mr-2">📞</span>
+        +91 81269 37973
+      </a>
+      <a href="mailto:adi.sri.3017@gmail.com"
+         class="text-lg font-medium text-gray-900 hover:underline flex items-center">
+        <span class="text-2xl mr-2">✉️</span>
+        adi.sri.3017@gmail.com
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+
+  <!-- AOS & Custom JS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="dynamic.js"></script>
+</body>
+</html>  
